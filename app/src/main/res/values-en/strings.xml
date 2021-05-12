@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_search">Search</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_edit">Rename</string>
+    <string name="search">Research</string>
+    <string name="remove">Delete from playlist</string>
+    <string name="remove_des">Are you sure you want to delete the playlist?</string>
+    <string name="name">Playlist name</string>
+    <string name="create">Create a playlist</string>
+    <string name="edit">Rename playlist</string>
+    <string name="empty">Name cannot be empty</string>
+    <string name="exist">A playlist of the same name already exists</string>
+    <string name="created">Playlist created</string>
+    <string name="edited">Renamed playlist</string>
+    <string name="notification_channel">Listening in progress</string>
+    <string name="notification_channel_description">Displays and controls the music currently playing in @string/app_name</string>
+    <string name="notification_close">Close</string>
+    <string name="notification_skip_to_previous">Previous</string>
+    <string name="notification_play">Play</string>
+    <string name="notification_pause">Pause</string>
+    <string name="notification_skip_to_next">Next</string>
+    <string name="remove_item">Removing music from the list</string>
+    <string name="remove_item_des">Are you sure you want to remove this item from the playlist?</string>
+    <string name="removed">deleted</string>
+    <string name="add_item">Add to playlists</string>
+    <string name="added_to">added to</string>
+    <string name="all">All</string>
+    <string name="songs">songs</string>
+    <string name="playlists">Playlists</string>
+    <string name="recent">Recently listened to</string>
+    <string name="removed_from">removed from</string>
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name" translatable="false">Bailar con Pegaso</string>
+    <string name="songs">musiques</string><!-- musique/chanson/morceau/titre -->
+    <string name="recent">Récemment écoutées</string>
+    <string name="playlists">Listes de lecture</string>
+
+    <!--<string name="action_settings">Settings</string>-->
+    <string name="action_search">Rechercher</string>
+    <string name="action_remove">Supprimer</string>
+    <string name="action_edit">Renommer</string>
+
+    <string name="search">Recherche</string>
+    <string name="all">Toutes</string>
+
+    <string name="remove">Suppression de la liste de lecture</string>
+    <string name="remove_des">Voulez-vous vraiment supprimer la liste de lecture ?</string>
+    <string name="name">Nom de la liste de lecture</string>
+    <string name="create">Créer une liste de lecture</string>
+    <string name="edit">Renommer la liste de lecture</string>
+
+    <string name="remove_item">Suppression d\'une musique de la liste</string>
+    <string name="remove_item_des">Voulez-vous vraiment supprimer cet élément de la liste de lecture ?</string>
+    <string name="removed">supprimé</string>
+
+    <string name="add_item">Ajouter à des listes de lecture</string>
+    <string name="added_to">ajouté à</string>
+    <string name="removed_from">supprimé de</string>
+
+    <string name="empty">Le nom ne peut pas être vide</string>
+    <string name="exist">Une liste de lecture de même nom existe déja</string>
+    <string name="created">Liste de lecture créée</string>
+    <string name="edited">Liste de lecture renommée</string>
+
+    <string name="notification_channel">Lecture en cours</string>
+    <string name="notification_channel_description">Affiche et contrôle la musique jouée actuellement dans @string/app_name</string>
+
+    <string name="notification_close">Fermer</string>
+    <string name="notification_skip_to_previous">Précédent</string>
+    <string name="notification_play">Lire</string>
+    <string name="notification_pause">Pause</string>
+    <string name="notification_skip_to_next">Suivant</string>
+</resources>

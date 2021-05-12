@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_search"
+        android:shortcutShortLabel="@string/search"
+        android:shortcutLongLabel="@string/search"
+        android:shortcutDisabledMessage="@string/search"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.circle.pegaso"
+            android:targetClass="com.circle.pegaso.SearchActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
+    <!-- @string/search_shortcut_short_label @string/search_shortcut_long_label @string/search_disabled_message -->

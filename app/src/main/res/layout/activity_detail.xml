@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="I like it"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cardi b"
+        android:gravity="center_horizontal" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_margin="25dp"
+        app:cardCornerRadius="160dp"
+        android:shape="ring">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/default_icon" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!--<View
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/colorPrimaryDark" />-->
+
+    <SeekBar
+        android:id="@+id/positionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+    <ImageButton
+        android:id="@+id/modeicon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end"
+        android:background="?android:selectableItemBackground"
+        android:onClick="mode"
+        app:srcCompat="@drawable/ic_arrow_forward" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:background="#E5E5E5"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="lyrics"
+            app:srcCompat="@drawable/ic_lyrics" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="previous"
+            app:srcCompat="@drawable/ic_previous" />
+
+        <ImageButton
+            android:id="@+id/playBtn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="playBtnClick"
+            app:srcCompat="@drawable/ic_play" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="next"
+            app:srcCompat="@drawable/ic_next" />
+
+        <ImageButton
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?android:selectableItemBackground"
+            android:onClick="addtoPlaylist"
+            app:srcCompat="@drawable/ic_playlist_add" />
+    </LinearLayout>
+
+</LinearLayout>
